@@ -7,7 +7,7 @@ aws schemas list-schemas --registry-name aws.events --query 'Schemas[] | sort_by
 ## Schemas
 
 | Schema                                                         | Version | Created Date           |
-| -------------------------------------------------------------- | -- -----| ---------------------- |
+| -------------------------------------------------------------- | --------| ---------------------- |
 |  aws.emr@EMRStepStatusChange                                   | 1       |  2019-12-01T00:31:47Z  |
 |  aws.health@AWSHealthAbuseEvent                                | 1       |  2019-12-01T00:31:47Z  |
 |  aws.health@AWSHealthEvent                                     | 1       |  2019-12-01T00:31:47Z  |
